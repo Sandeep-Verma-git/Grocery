@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: hsl(210, 36%, 96%);
+}
+
+.section-center {
+  background: #fff;
+  max-width: 35rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.1s linear;
+}
+
+@media screen and (max-width: 720px) {
+  .section-center {
+    max-width: 90vw;
+  }
+}
+
+.form-control {
+  padding-top: 1.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+input {
+  width: 80%;
+  font-size: 1rem;
+  padding: 0.25rem;
+  padding-left: 1rem;
+  border: none;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  background: hsl(210, 36%, 96%);
+  border-color: transparent;
+}
+
+.submit-btn {
+  text-transform: capitalize;
+  width: 20%;
+  font-size: 0.85rem;
+  padding: 0.35rem;
+  border: none;
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  letter-spacing: 0.1rem;
+  background: hsl(205, 86%, 81%);
+  transition: all 0.3s linear;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background: hsl(205, 78%, 60%);
+  color: #fff;
+}
+
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+  transition: all 0.3s linear;
+  border-radius: 0.2rem;
+  margin-top: 0.85rem;
+}
+
+.grocery-item:hover {
+  background: hsl(210, 36%, 96%);
+  color: hsl(210, 22%, 49%);
+}
+
+.grocery-list {
+  padding-top: 1.5rem;
+}
+
+.edit-btn {
+  color: hsl(125, 71%, 66%);
+  border: none;
+  margin-right: 1rem;
+  background: transparent;
+  transition: all 0.3s linear;
+}
+
+.edit-btn:hover {
+  cursor: pointer;
+  color: hsl(125, 67%, 44%);
+}
+
+.delete-btn {
+  color: hsl(360, 71%, 66%);
+  border: none;
+  background: transparent;
+  transition: all 0.3s linear;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+  color: hsl(360, 67%, 44%);
+}
+
+.alert {
+  display: grid;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  height: 1.25rem;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 0.2rem;
+}
+
+.success {
+  color: #155724;
+  background: #d4edda;
+}
+
+.danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+
+.clear-btn {
+  border: transparent;
+  text-transform: capitalize;
+  border-color: transparent;
+  color: hsl(360, 71%, 66%);
+  background: transparent;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.clear-btn:hover {
+  cursor: pointer;
+  color: (360, 67%, 44%);
+}
